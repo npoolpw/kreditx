@@ -1,8 +1,8 @@
-var api = "http://apihost.com:port";
+var api = "http://krx.npool.pw:10030";
 
-var poolHost = "apihost.com";
+var poolHost = "akrx.npool.pw";
 
-var blockExplorer = "http://blockexplorer.pw/coin";
+var blockExplorer = "http://blockexplorer.pw/krx";
 
 var cryptonatorWidget = ["BTC-USD", "XMR-USD"];
 
@@ -15,5 +15,8 @@ var transactionExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchai
 var themeCss = "themes/default-theme.css";
 
 var networkStat = [
-        ["coin.apihost.com", "http://coin.apihost.com:port"],
+        ["kreditx.npool.pw", "http://kreditx.npool.pw:10030"],
+        ["kreditx.ga", "http://kreditx.ga:8117"],
+        ["krx.luckypool.io", "https://krx.luckypool.io/api"],
+        ["krx.cryptonight.today", "http://172.110.20.43:8517"]
 ];
